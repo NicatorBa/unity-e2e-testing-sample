@@ -6,3 +6,4 @@ For a detailed tracking of each step, please check the commits.
 == Steps
 
 . Create a game with Unity
+. Create a project for the test library (it is an ordinary _class library_)
