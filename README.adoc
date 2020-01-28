@@ -1,0 +1,8 @@
+= Unity E2E-Testing Sample
+
+This is an example of E2E testing of games created with https://unity.com[Unity3D]. It uses the test framework http://docs.fitnesse.org[FitNesse]/ https://fitsharp.github.io[FitSharp] and https://altom.gitlab.io/altunity/altunitytester/[AltUnityTester]. +
+For a detailed tracking of each step, please check the commits.
+
+== Steps
+
+. Create a game with Unity
