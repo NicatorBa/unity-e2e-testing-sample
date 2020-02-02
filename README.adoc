@@ -1,6 +1,6 @@
 = Unity E2E-Testing Sample
 
-This is an example of E2E testing of games created with https://unity.com[Unity3D]. It uses the test framework http://docs.fitnesse.org[FitNesse]/ https://fitsharp.github.io[FitSharp] and https://altom.gitlab.io/altunity/altunitytester/[AltUnityTester]. +
+This is an E2E testing example of games created with https://unity.com[Unity3D]. It uses the test framework http://docs.fitnesse.org[FitNesse]/ https://fitsharp.github.io[FitSharp] and https://altom.gitlab.io/altunity/altunitytester/[AltUnityTester]. +
 For a detailed tracking of each step, please check the commits.
 
 == Steps
@@ -11,3 +11,11 @@ For a detailed tracking of each step, please check the commits.
 .. Import https://assetstore.unity.com/packages/tools/utilities/altunity-tester-ui-test-automation-112101[AltUnity Tester - UI Test Automation]
 .. Add the _AltUnityRunnerPrefab_ from _./AltUnityTester/Prefab_ to your first scene
 .. Set the _API Compatibility Level_ of your game to _.NET 4.x_
+. Add AltUnityTester to test library:
+.. Copy the folder _AltUnityDriver_ from your Unity game into the test library directory
+.. Set the _TargetFramework_ to _net452_
+.. Include via NuGet _Newtonsoft.Json_ in version _8.0.3_
+
+== License
+
+This sample project is licensed under MIT License. This does not include code from third party applications such as https://gitlab.com/altom/altunity/altunitytester/blob/master/LICENSE[AltUnityTester], these are still to be treated under their original license.
