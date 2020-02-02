@@ -1,0 +1,5 @@
+---
+Search: no
+Static
+---
+[[Front Page][.FrontPage]] | [[root][root]] (for global !-!path's-!, ''etc.'') | Press '?' for keyboard shortcuts  | [[Contact][http://fitnesse.org/StayInformed]] | [[(edit)][.PageFooter?edit]]

@@ -16,6 +16,7 @@ For a detailed tracking of each step, please check the commits.
 .. Set the _TargetFramework_ to _net452_
 .. Include via NuGet _Newtonsoft.Json_ in version _8.0.3_
 . Extend the test library and define output path
+. Set up _FitNesse_ and create a test
 
 == License
 

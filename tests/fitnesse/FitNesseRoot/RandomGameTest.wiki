@@ -1,0 +1,12 @@
+!path ..\..\bin\RandomGame.Tests.dll
+!define COMMAND_PATTERN {%m -r fitnesse.fitserver.FitServer %p}
+!define TEST_RUNNER {..\..\bin\Runner.exe}
+
+!|RandomGame.Tests.TestEnvironment|
+|Connect To Game                  |
+
+!|RandomGame.Tests.Scene     |
+|Has Object With Name|BoxCube|
+
+!|RandomGame.Tests.TestEnvironment|
+|Disconnect From Game             |

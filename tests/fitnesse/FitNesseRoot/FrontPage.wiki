@@ -1,0 +1,17 @@
+---
+Prune
+Refactor: no
+Static
+---
+!1 Welcome to [[FitNesse][FitNesse.FitNesse]]!
+!3 ''The fully integrated stand-alone acceptance testing framework and wiki.''
+# Here is a good place to add your first page (WikiWord). For example, MyTopLevelApplicationPage
+
+To add your first "page", click the [[Edit][.FrontPage?edit]] button and add a [[!-WikiWord-!][.FitNesse.UserGuide.FitNesseWiki.WikiWord]] to the page.
+
+[[Random Game Test][.RandomGameTest]]
+
+|'''To Learn More...'''                                                                                                                                                                                                 |
+|[[Slack Community][https://join.slack.com/t/fitnessecommunity/shared_invite/enQtOTIzMjEwNTEzNTM2LWQ5OTE2ZjI5YmIzZWM2YzQwMDA2YmE5N2ZhMzNiNWM2ZjYzMDNmMTkzOTNmOTQ2N2E4Mzc2NGE4Y2ViMzE2MTE]]|''Join the Slack Community.''|
+
+!note Release ${FITNESSE_VERSION}
