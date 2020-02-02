@@ -15,6 +15,7 @@ For a detailed tracking of each step, please check the commits.
 .. Copy the folder _AltUnityDriver_ from your Unity game into the test library directory
 .. Set the _TargetFramework_ to _net452_
 .. Include via NuGet _Newtonsoft.Json_ in version _8.0.3_
+. Extend the test library and define output path
 
 == License
 
