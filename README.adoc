@@ -1,7 +1,7 @@
 = Unity E2E-Testing Sample
 
 This is an E2E testing example of games created with https://unity.com[Unity3D]. It uses the test framework http://docs.fitnesse.org[FitNesse]/ https://fitsharp.github.io[FitSharp] and https://altom.gitlab.io/altunity/altunitytester/[AltUnityTester]. +
-For a detailed tracking of each step, please check the commits.
+For a detailed tracking of each step, please check the commits. If you have questions or suggestions, you are welcome to create an issue.
 
 == Steps
 
@@ -17,6 +17,29 @@ For a detailed tracking of each step, please check the commits.
 .. Include via NuGet _Newtonsoft.Json_ in version _8.0.3_
 . Extend the test library and define output path
 . Set up _FitNesse_ and create a test
+
+== Additional changes
+
+. Scoped registry in Unity for resolving package of Newtonsoft.Json (see _.\Packages\manifest.json_) used
+. 3rdParty library of JsonDotNet in Unity was removed
+. Newtonsoft.Json in test library has been updated
+
+== Quick start
+
+=== Requirements
+
+* Visual Studio 2019
+* Unity 2019 LTS
+* Java runtime environment
+
+=== Getting started
+
+. Run _.\tests\fitnesse\download.bat_ to download FitNesse and optional plugins
+. Start the Unity project and build it into _.\bin\Game_
+. Build solution _RandomGame.Tests_
+. Go to _.\tests\fitnesse\_ and start FitNesse with _java -jar fitnesse-standalone.jar -p 8080_
+. Open _http://localhost:8080/RandomGameTest_ in your browser
+. Run .\bin\Game\RandomGame.exe and than start the test on the website
 
 == License
 
